@@ -1,3 +1,5 @@
+import CircleDescription from './CircleDescription';
+
 export default function ProjectDetailsPage() {
   return (
     <div className="w-4/5 flex flex-row">
@@ -31,6 +33,7 @@ export default function ProjectDetailsPage() {
         <p>Dev: 0/2</p>
         <p>Dev: 1/1</p>
       </div>
+      <CircleDescription />
     </div>
   );
 }
