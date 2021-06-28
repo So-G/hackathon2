@@ -1,9 +1,12 @@
 import './App.css';
+import Main from './components/Main';
+import Nav from './components/Nav';
 
 function App() {
   return (
     <div className="App">
-      <h1>Breaking Code</h1>
+      <Nav />
+      <Main />
     </div>
   );
 }
