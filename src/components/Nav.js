@@ -11,18 +11,18 @@ export default function Nav() {
             </Link>
           </li>
           <li>
-            <Link exact to="/page-one">
-              Page One
+            <Link exact to="/projects">
+              Projects
             </Link>
           </li>
           <li>
-            <Link exact to="/page-two">
-              Page Two
+            <Link exact to="/projects/:id">
+              Project details
             </Link>
           </li>
           <li>
-            <Link exact to="/page-three">
-              Page Three
+            <Link exact to="/form">
+              Form
             </Link>
           </li>
         </ul>
