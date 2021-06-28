@@ -266,6 +266,9 @@ const HomePage: NextPage = () => {
           />
         ))}
       </div>
+      <div className="bubble company-1" />
+      <div className="bubble company-2" />
+      <div className="bubble company-3" />
     </div>
   );
 };
