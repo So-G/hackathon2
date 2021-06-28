@@ -241,7 +241,7 @@ const HomePage: NextPage = () => {
         ...bubble,
         noiseSeedX: newNoiseSeedX,
         noiseSeedY: newNoiseSeedY,
-        // x: newX < -200 ? CANVAS_WIDTH : newX,
+        x: newX < -200 ? CANVAS_WIDTH : newX,
         xWithNoise: newXWithNoise,
         yWithNoise: newYWithNoise,
       };
@@ -266,7 +266,6 @@ const HomePage: NextPage = () => {
           />
         ))}
       </div>
-      
     </div>
   );
 };
