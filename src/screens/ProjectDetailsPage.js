@@ -1,7 +1,7 @@
 export default function ProjectDetailsPage() {
   return (
     <>
-      <h1>Page One</h1>
+      <h1>Project details</h1>
     </>
   );
 }

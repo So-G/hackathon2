@@ -1,7 +1,7 @@
 export default function FormPage() {
   return (
     <>
-      <h1>Page Two</h1>
+      <h1>Form</h1>
     </>
   );
 }
