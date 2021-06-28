@@ -20,7 +20,6 @@ body,
 }
 
 .bubbles {
-  background-color: #1dbf73;
   background-size: 1076px 1076px;
   height: 600px;
   overflow: hidden;
@@ -28,7 +27,7 @@ body,
 }
 
 .bubbles-wrapper {
-  background-color: salmon;
+  background-color: #1dbf73;
   display: flex;
   flex-direction: column;
   justify-content: center;
