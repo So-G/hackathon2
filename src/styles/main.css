@@ -22,7 +22,6 @@
 
 .sidebar {
   max-width: 30vw;
-  border-color: turquoise;
   border-style: solid;
   display: flex;
   flex-direction: column;
