@@ -12,7 +12,7 @@ export default function RecommandationComment() {
                   htmlFor="about"
                   className="block text-sm font-medium text-gray-700"
                 >
-                  Pourquoi recommander cette personnes ?
+                  Why did you recommend this person ?
                 </label>
                 <div className="mt-1">
                   <textarea
@@ -20,16 +20,16 @@ export default function RecommandationComment() {
                     name="about"
                     rows={3}
                     className="shadow-sm focus:ring-indigo-500 focus:border-indigo-500 mt-1 block w-full sm:text-sm border border-gray-300 rounded-md"
-                    placeholder="recommandation"
+                    placeholder="Type here..."
                     defaultValue=""
                   />
                 </div>
                 <div className="px-4 py-3 text-center sm:px-6">
                   <button
-                    type="submit"
+                    type="button"
                     className="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
                   >
-                    Envoyer
+                    Send
                   </button>
                 </div>
               </div>
