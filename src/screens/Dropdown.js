@@ -6,7 +6,7 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(' ');
 }
 
-export default function CircleDescription() {
+export default function Dropdown() {
   return (
     <Menu as="div" className="relative inline-block text-left">
       {({ open }) => (

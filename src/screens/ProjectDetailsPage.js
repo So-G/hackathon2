@@ -1,4 +1,4 @@
-import CircleDescription from './CircleDescription';
+import Dropdown from './Dropdown';
 
 export default function ProjectDetailsPage() {
   return (
@@ -36,7 +36,7 @@ export default function ProjectDetailsPage() {
         <p>Dev: 0/2</p>
         <p>Dev: 1/1</p>
       </div>
-      <CircleDescription />
+      <Dropdown />
     </div>
   );
 }
