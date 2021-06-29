@@ -7,15 +7,20 @@ export default function Nav() {
       <nav>
         <ul className="navList">
           <div className="logo">
-            <img src={logo} alt="fiver-logo" className="nav-logo" />
+            <Link className="link" exact to="/">
+              <img src={logo} alt="fiver-logo" className="nav-logo" />
+            </Link>
           </div>
           <div>
             <input
               type="search"
               placeholder="Find services for your project"
-              className="searchbar"
+              className="searchbar rounded-lg"
             />
-            <button type="submit" className="nav-btn">
+            <button
+              type="submit"
+              className="nav-btn rounded-lg pb-1 w-10 h-11 pl-3"
+            >
               <svg
                 width="16"
                 height="16"
@@ -27,23 +32,8 @@ export default function Nav() {
             </button>
           </div>
           <li>
-            <Link className="link" exact to="/">
-              Home
-            </Link>
-          </li>
-          <li>
             <Link className="link" exact to="/projects">
               Projects
-            </Link>
-          </li>
-          <li>
-            <Link className="link" exact to="/projects/:id">
-              Project details
-            </Link>
-          </li>
-          <li>
-            <Link className="link" exact to="/form">
-              Form
             </Link>
           </li>
         </ul>

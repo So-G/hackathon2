@@ -1,44 +1,61 @@
 // import axios from "axios";
 import { Link } from 'react-router-dom';
-import './ProjectPage.css';
 
 export default function ProjectPage() {
   return (
     <div className="bg-grey-200 w-screen ">
       <div className=" ">
-        <h1>Projects</h1>
-        <div className=" sm:flex md:flex-row justify-around h-4/5">
-          <Link to="/projects/:id">
-            <div className="  my-32 bg-green-600 h-52 w-52 p-8 items-center align-center rounded-full transform hover:shadow-2xl transition duration-500 transform hover:scale-110 transition duration-500 shadow-lg">
+        <h1 className="w-screen text-xl h-20 shadow-lg bg-gray-300 flex justify-center p-5 transform hover:shadow-2xl transition duration-500 ">
+          Projects
+        </h1>
+        <div className=" sm:flex md:flex-row justify-around">
+          <Link to="/projects/1">
+            <div className=" text-white mt-32 bg-green-600 h-52 w-52 p-8 items-center align-center rounded-full transform hover:shadow-2xl transition duration-500 transform hover:scale-110 transition duration-500 shadow-lg">
               <h3>Projet A</h3>
               <p>Marketing 1/3</p>
               <p>Social media Manager 1/1</p>
               <p>Devs 2/5</p>
             </div>
           </Link>
-          <div className=" m-16 bg-pink-400 h-52 w-52 p-10 items-center align-center rounded-full transform hover:shadow-2xl transition duration-500 transform hover:scale-110 transition duration-500 shadow-lg">
-            <h3>Projet X</h3>
-            <p>UX/UI 1/1</p>
-            <p>Devops 1/1</p>
-            <p>Devs 2/5</p>
-          </div>
-          <div className=" my-72 bg-blue-300 h-52 w-52 p-10 items-center align-center rounded-full transform hover:shadow-2xl transition duration-500 transform hover:scale-110 transition duration-500 shadow-lg">
-            <h3>Projet B</h3>
-            <p>Marketing 1/3</p>
-            <p>Social media Manager 1/1</p>
-            <p>Devs 2/5</p>
-          </div>
+          <Link to="/projects/2">
+            <div className="text-white m-16 bg-pink-400 h-52 w-52 p-10 items-center align-center rounded-full transform hover:shadow-2xl transition duration-500 transform hover:scale-110 transition duration-500 shadow-lg">
+              <h3>Projet B</h3>
+              <p>Marketing 1/1</p>
+              <p>Designer 0/1</p>
+              <p>Dev 1/3</p>
+            </div>
+          </Link>
+          <Link to="/projects/3">
+            <div className=" text-white mt-72 bg-blue-300 h-52 w-52 p-10 items-center align-center rounded-full transform hover:shadow-2xl transition duration-500 transform hover:scale-110 transition duration-500 shadow-lg">
+              <h3>Projet C</h3>
+              <p>Marketing 1/3</p>
+              <p>Social media Manager 1/1</p>
+              <p>Devs 2/5</p>
+            </div>
+          </Link>
           <div className="my-32 w-48">
-            <h2 className=" my-6 border-pink-600 border-2 rounded-3xl py-4 text-pink-600">
+            <h2 className=" my-6 border-pink-600 border-2 rounded-3xl py-4 text-pink-600 transform hover:shadow-2xl transition duration-500 transform hover:scale-110 transition duration-500 shadow-lg">
               Categories
             </h2>
             <ul>
-              <li>Programation & Tech</li>
-              <li>Marketing Digital</li>
-              <li>Video Animation</li>
-              <li>Business</li>
-              <li>Data</li>
-              <li>Readaction & Traduction</li>
+              <li className="transform hover:underline transition duration-500">
+                Programation & Tech
+              </li>
+              <li className="transform hover:underline transition duration-500">
+                Marketing Digital
+              </li>
+              <li className="transform hover:underline transition duration-500">
+                Video Animation
+              </li>
+              <li className="transform hover:underline transition duration-500">
+                Business
+              </li>
+              <li className="transform hover:underline transition duration-500">
+                Data
+              </li>
+              <li className="transform hover:underline transition duration-500">
+                Readaction & Traduction
+              </li>
             </ul>
           </div>
         </div>
