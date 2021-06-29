@@ -1,7 +1,15 @@
+import SideBar from '../components/SideBar';
+import SecondaryNav from '../components/secondaryNav';
+import project from '../assets/placeholder.png';
+
 export default function HomePage() {
   return (
     <>
-      <h1>Home Page</h1>
+      <SecondaryNav />
+      <div className="content">
+        <img src={project} alt="projects" />
+        <SideBar />
+      </div>
     </>
   );
 }
