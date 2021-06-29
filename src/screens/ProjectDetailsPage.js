@@ -1,4 +1,5 @@
-import Dropdown from './Dropdown';
+import Dropdown from '../components/ForProjectDescription/Dropdown';
+import MembersAvatar from '../components/ForProjectDescription/MembersAvatar';
 
 export default function ProjectDetailsPage() {
   return (
@@ -28,6 +29,9 @@ export default function ProjectDetailsPage() {
             >
               Participer
             </button>
+            <div className="mt-3 mb-3">
+              <MembersAvatar />
+            </div>
           </div>
         </div>
       </div>
