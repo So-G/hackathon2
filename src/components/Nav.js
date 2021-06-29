@@ -4,7 +4,7 @@ export default function Nav() {
   return (
     <header>
       <nav>
-        <ul>
+        <ul className="h-24 w-screen  flex justify-around items-center bg-red-600">
           <li>
             <Link exact to="/">
               Home
