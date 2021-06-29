@@ -22,9 +22,12 @@ export default function ProjectDetailsPage() {
             <p className="mt-2 text-white">Deadline : 20/06/2020 - 21h04</p>
             <p className="mt-2 text-white">Durée : 1 mois</p>
             <p className="mt-2 text-white">Tarif : 80€ TTC</p>
-            <div className="mt-2 text-black rounded-full bg-white w-24 text-center">
+            <button
+              type="button"
+              className="mt-2 text-black rounded-full bg-white w-24 text-center"
+            >
               Participer
-            </div>
+            </button>
           </div>
         </div>
       </div>
