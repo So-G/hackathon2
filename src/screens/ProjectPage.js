@@ -7,7 +7,6 @@ export default function ProjectPage() {
     <>
       <h1>Projects</h1>
       <Bubbles />
-      <Bubbles />
     </>
   );
 }
