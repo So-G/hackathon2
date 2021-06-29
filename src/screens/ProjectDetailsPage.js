@@ -1,5 +1,6 @@
 import Dropdown from '../components/ForProjectDescription/Dropdown';
 import MembersAvatar from '../components/ForProjectDescription/MembersAvatar';
+import RecommandationComment from '../components/ForProjectDescription/RecommandationsComment';
 
 export default function ProjectDetailsPage() {
   return (
@@ -35,12 +36,15 @@ export default function ProjectDetailsPage() {
           </div>
         </div>
       </div>
-      <div className="rounded-full h-40 w-40 bg-green-500 flex flex-col items-center justify-center">
-        <p>Marketing: 1/3</p>
-        <p>Dev: 0/2</p>
-        <p>Dev: 1/1</p>
+      <div className="flex flex-col items-center justify-start">
+        <div className=" rounded-full h-40 w-40 bg-green-500 flex flex-col items-center justify-center">
+          <p>Marketing: 1/3</p>
+          <p>Dev: 0/2</p>
+          <p>Dev: 1/1</p>
+        </div>
+        <Dropdown />
+        <RecommandationComment />
       </div>
-      <Dropdown />
     </div>
   );
 }
