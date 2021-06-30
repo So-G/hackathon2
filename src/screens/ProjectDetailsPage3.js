@@ -6,7 +6,7 @@ export default function ProjectDetailsPage3() {
   const [selectedOption, setSelectedOption] = useState('');
 
   return (
-    <div className="w-4/5 flex flex-row mt-52">
+    <div className="w-4/5 flex flex-row mt-40">
       <div className=" w-80 mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl bg-blue-300 transform hover:shadow-2xl transition duration-500 transform hover:scale-110 transition duration-500">
         <div className="md:flex flex-row">
           <div className="p-8 text-left">
@@ -31,6 +31,12 @@ export default function ProjectDetailsPage3() {
               className="mt-2 text-black rounded-full bg-white w-24 text-center"
             >
               Join
+            </button>
+            <button
+              type="button"
+              className="mx-8 mt-2 cursor-default text-gray-700 rounded-full bg-gray-400 w-24 text-center"
+            >
+              Tchat
             </button>
             <div className="mt-3 mb-3">
               <MembersAvatar />
