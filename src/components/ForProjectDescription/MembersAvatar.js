@@ -1,3 +1,5 @@
+import unknown from '../../assets/unknown.png';
+
 export default function MembersAvatar() {
   return (
     <>
@@ -15,6 +17,11 @@ export default function MembersAvatar() {
         <img
           className="inline-block h-10 w-10 rounded-full ring-2 ring-white"
           src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.25&w=256&h=256&q=80"
+          alt=""
+        />
+        <img
+          className="inline-block h-10 w-10 rounded-full ring-2 ring-white"
+          src={unknown}
           alt=""
         />
       </div>

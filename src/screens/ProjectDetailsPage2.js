@@ -24,7 +24,7 @@ export default function ProjectDetailsPage2() {
               est eleifend mi, non fermentum diam nisl sit amet erat.
             </p>
             <p className="mt-2 text-white">Deadline : 2021-09-17</p>
-            <p className="mt-2 text-white">Duration : 6 month</p>
+            <p className="mt-2 text-white">Duration : 6 months</p>
             <p className="mt-2 text-white">Price : 17 500$</p>
             <button
               type="button"
