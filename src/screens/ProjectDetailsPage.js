@@ -8,7 +8,7 @@ export default function ProjectDetailsPage() {
   const [selectedOption, setSelectedOption] = useState('');
 
   return (
-    <div className="w-4/5 flex flex-row mt-52">
+    <div className="w-4/5 flex flex-row mt-40">
       <div className=" w-80 mx-auto bg-white rounded-xl shadow-lg overflow-hidden md:max-w-2xl bg-green-600 transform hover:shadow-2xl transition duration-500 transform hover:scale-110 transition duration-500">
         <div className="md:flex flex-row">
           <div className="p-8 text-left">
@@ -34,6 +34,12 @@ export default function ProjectDetailsPage() {
             >
               Join
             </button>
+            <button
+              type="button"
+              className="mx-8 mt-2 cursor-default text-gray-700 rounded-full bg-gray-400 w-24 text-center"
+            >
+              Tchat
+            </button>
             <div className="mt-3 mb-3">
               <MembersAvatar />
             </div>
@@ -41,7 +47,7 @@ export default function ProjectDetailsPage() {
         </div>
       </div>
       <div className="flex flex-col items-center justify-start">
-        <div className="text-white rounded-full h-40 w-40 bg-green-600 flex flex-col items-center justify-center">
+        <div className="text-white rounded-full shadow-lg transform hover:shadow-2xl transition duration-500 h-40 w-40 bg-green-600 flex flex-col items-center justify-center">
           <p>Marketing: 1/3</p>
           <p>DevOps: 1/1</p>
           <p>Dev: 0/2</p>
