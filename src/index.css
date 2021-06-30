@@ -6,3 +6,76 @@ button:focus {
   outline: 1px dotted;
   outline: 5px auto -webkit-focus-ring-color;
 }
+
+.navList {
+  background-color: #1d1e44;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 80px;
+}
+
+.nav-btn {
+  background-color: #1dbf73;
+  margin-left: 1em;
+}
+
+.link {
+  color: white;
+  font-family: 'Macan', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-decoration: none;
+  justify-content: space-around;
+}
+
+.sidebar {
+  max-width: 30vw;
+  border-style: solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.nav-logo {
+  width: 200px;
+  justify-content: left;
+}
+
+.searchbar {
+  width: 400px;
+  border-color: white;
+}
+
+.product-owners {
+  color: #1dbf73;
+  border-color: #1dbf73;
+  border-style: dashed;
+  border-radius: 20px;
+}
+
+.nav2 {
+  margin: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 80px;
+}
+
+.secondary-link {
+  color: #1d1e44;
+  font-family: 'Macan', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-decoration: none;
+  font-size: large;
+  font-weight: 400;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+}
+
+.input-rec {
+  width: 265px;
+}
