@@ -13,8 +13,8 @@ export default function ProjectDetailsPage3() {
             <div className="uppercase tracking-wide text-sm text-white font-semibold">
               Project
             </div>
-            <p className="mt-2 text-white">Project : Project C</p>
-            <p className="mt-2 text-white">Creator : Jonh Doe</p>
+            <p className="mt-2 text-white">Project : PHP Global Take Over</p>
+            <p className="mt-2 text-white">Creator : Thomas Torvalds</p>
             <p className="mt-2 text-white">
               Description : Lorem ipsum dolor sit amet, consectetur adipiscing
               elit. Sed non risus. Suspendisse lectus tortor, dignissim sit

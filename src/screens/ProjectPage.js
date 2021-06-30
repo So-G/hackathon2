@@ -5,9 +5,6 @@ export default function ProjectPage() {
   return (
     <div className="bg-grey-200 w-screen ">
       <div className=" ">
-        <h1 className="w-screen text-xl h-20 shadow-lg bg-gray-300 flex justify-center p-5 ">
-          Projects
-        </h1>
         <div className=" sm:flex md:flex-row justify-around">
           <Link to="/projects/1">
             <div className=" text-white mt-32 bg-green-600 h-52 w-52 p-8 items-center align-center rounded-full transform hover:shadow-2xl transition duration-500 transform hover:scale-110 transition duration-500 shadow-lg">

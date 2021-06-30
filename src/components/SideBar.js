@@ -1,4 +1,6 @@
 /* eslint-disable prettier/prettier */
+import { Link } from 'react-router-dom';
+
 export default function SideBar() {
   return (
     <div className="flex flex-col mr-10 ">
@@ -7,9 +9,15 @@ export default function SideBar() {
       </h3>
       <div className="h-4/5 m-6 p-5 border-l-2 border-gray-200  ">
         <ul>
-          <li className="m-2 list-disc text-sm">John Doe</li>
-          <li className="m-2 list-disc text-sm">Jane Doe </li>
-          <li className="m-2 list-disc text-sm">Thomas Torvalds</li>
+          <li className="m-2 list-disc text-sm">
+            <Link to="/projects/1">John Doe</Link>
+          </li>
+          <li className="m-2 list-disc text-sm">
+            <Link to="/projects/2">Jane Doe</Link>
+          </li>
+          <li className="m-2 list-disc text-sm">
+            <Link to="/projects/3">Thomas Torvalds</Link>
+          </li>
         </ul>
       </div>
     </div>
