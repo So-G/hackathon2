@@ -8,7 +8,7 @@ export default function ProjectPage() {
         <div className=" sm:flex md:flex-row justify-around">
           <Link to="/projects/1">
             <div className=" text-white mt-32 bg-green-600 h-52 w-52 p-8 items-center align-center rounded-full transform hover:shadow-2xl transition duration-500 transform hover:scale-110 transition duration-500 shadow-lg">
-              <h3>Projet A</h3>
+              <h3>Project A</h3>
               <p>Marketing 1/3</p>
               <p>Social media Manager 1/1</p>
               <p>Devs 2/5</p>
@@ -16,7 +16,7 @@ export default function ProjectPage() {
           </Link>
           <Link to="/projects/2">
             <div className="text-white m-16 bg-pink-400 h-52 w-52 p-10 items-center align-center rounded-full transform hover:shadow-2xl transition duration-500 transform hover:scale-110 transition duration-500 shadow-lg">
-              <h3>Projet B</h3>
+              <h3>Project B</h3>
               <p>Marketing 1/1</p>
               <p>Designer 0/1</p>
               <p>Dev 1/3</p>
@@ -24,7 +24,7 @@ export default function ProjectPage() {
           </Link>
           <Link to="/projects/3">
             <div className=" text-white mt-72 bg-blue-300 h-52 w-52 p-10 items-center align-center rounded-full transform hover:shadow-2xl transition duration-500 transform hover:scale-110 transition duration-500 shadow-lg">
-              <h3>Projet C</h3>
+              <h3>Project C</h3>
               <p>Marketing 1/3</p>
               <p>Social media Manager 1/1</p>
               <p>Devs 2/5</p>
@@ -36,10 +36,10 @@ export default function ProjectPage() {
             </h2>
             <ul>
               <li className="transform hover:underline transition duration-500">
-                Programation & Tech
+                Programming & Tech
               </li>
               <li className="transform hover:underline transition duration-500">
-                Marketing Digital
+                Digital Marketing
               </li>
               <li className="transform hover:underline transition duration-500">
                 Video Animation
@@ -51,7 +51,7 @@ export default function ProjectPage() {
                 Data
               </li>
               <li className="transform hover:underline transition duration-500">
-                Readaction & Traduction
+                Redaction & Translation
               </li>
             </ul>
           </div>

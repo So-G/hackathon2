@@ -47,9 +47,9 @@ export default function ProjectDetailsPage3() {
       </div>
       <div className="flex flex-col items-center justify-start">
         <div className="text-white rounded-full h-40 w-40 bg-blue-300 flex flex-col items-center justify-center">
-          <p>Marketing: 1/3</p>
-          <p>Dev: 0/2</p>
-          <p>Dev: 1/1</p>
+          <p>Marketing: 2/3</p>
+          <p>Community Manager: 1/2</p>
+          <p>Dev: 1/100</p>
         </div>
         <div className="inline-block relative w-27 h-10 mt-3 mb-3">
           <select
