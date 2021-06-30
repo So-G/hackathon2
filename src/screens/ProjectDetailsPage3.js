@@ -33,10 +33,11 @@ export default function ProjectDetailsPage3() {
               Join
             </button>
             <button
+              disabled
               type="button"
               className="mx-8 mt-2 cursor-default text-gray-700 rounded-full bg-gray-400 w-24 text-center"
             >
-              Tchat
+              Chat Room
             </button>
             <div className="mt-3 mb-3">
               <MembersAvatar />
@@ -57,9 +58,9 @@ export default function ProjectDetailsPage3() {
               setSelectedOption(e.target.value);
             }}
           >
-            <option>Recommend</option>
-            <option>Freelance A</option>
-            <option>Freelance B</option>
+            <option>Recommend a freelancer...</option>
+            <option>Freelancer A</option>
+            <option>Freelancer B</option>
             <option>Invite unregistered freelancer</option>
           </select>
           <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700" />

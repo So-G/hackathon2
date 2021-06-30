@@ -35,10 +35,11 @@ export default function ProjectDetailsPage() {
               Join
             </button>
             <button
+              disabled
               type="button"
               className="mx-8 mt-2 cursor-default text-gray-700 rounded-full bg-gray-400 w-24 text-center"
             >
-              Tchat
+              Chat Room
             </button>
             <div className="mt-3 mb-3">
               <MembersAvatar />
@@ -49,8 +50,9 @@ export default function ProjectDetailsPage() {
       <div className="flex flex-col items-center justify-start">
         <div className="text-white rounded-full shadow-lg transform hover:shadow-2xl transition duration-500 h-40 w-40 bg-green-600 flex flex-col items-center justify-center">
           <p>Marketing: 1/3</p>
+          <p>Designer : 1/1</p>
           <p>DevOps: 1/1</p>
-          <p>Dev: 0/2</p>
+          <p>Dev: 1/2</p>
         </div>
         <div className="inline-block relative w-27 h-10 mt-3 mb-3">
           <select
@@ -59,9 +61,9 @@ export default function ProjectDetailsPage() {
               setSelectedOption(e.target.value);
             }}
           >
-            <option>Recommend</option>
-            <option>Freelance A</option>
-            <option>Freelance B</option>
+            <option>Recommend a freelancer..</option>
+            <option>Freelancer A</option>
+            <option>Freelancer B</option>
             <option>Invite unregistered freelancer</option>
           </select>
           <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700" />
