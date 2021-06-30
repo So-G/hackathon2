@@ -10,7 +10,7 @@ export default function HomePage() {
           <div className="flex justify-center flex-col items-center">
             <img
               src={project}
-              alt=" random imgee"
+              alt=" random "
               className="w-3/5 object-cover object-center rounded-lg shadow-md"
             />
             <div className="w-3/5 relative px-4 -mt-16">
